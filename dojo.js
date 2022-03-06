@@ -8,7 +8,7 @@ class Vehicle {
     }
     drive() {
         this.miles += 10;
-        console.log(`You drove your ${ this.constructor.name } and it now has ${this.miles} miles on it.`);
+        
     }
     // simple method in the parent class
     parentFunction(){
